@@ -1,9 +1,3 @@
-/*!
- * Agency v0.0.1 (http://startbootstrap.com)
- * Copyright 2014 Start Bootstrap
- * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -243,7 +237,7 @@ header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 44px;
-  line-height: 22px;
+  line-height: 50px;
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
@@ -258,7 +252,7 @@ header .intro-text a.btn {
   margin-top: 30px;
 }
 header .intro-text .companies {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   height: auto;
   vertical-align: middle;
@@ -275,8 +269,8 @@ header .intro-text .companies img.company.right {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 100px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -295,11 +289,11 @@ header .intro-text .companies img.company.right {
   }
   header .intro-text .companies img.company.left {
     float: left;
-    width: 45%;
+    width: 40%;
   }
   header .intro-text .companies img.company.right {
     float: right;
-    width: 45%;
+    width: 40%;
     margin-top: 100px;
     margin-bottom: 100px;
   }
