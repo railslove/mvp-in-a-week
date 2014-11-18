@@ -1,9 +1,3 @@
-/*!
- * Agency v0.0.1 (http://startbootstrap.com)
- * Copyright 2014 Start Bootstrap
- * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
- */
-
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -253,6 +247,23 @@ header .intro-text .intro-heading {
   font-size: 25px;
   line-height: 50px;
   margin-bottom: 25px;
+}
+header .intro-text .companies {
+  width: 60%;
+  margin: 0 auto;
+  height: 280px;
+  vertical-align: middle;
+}
+header .intro-text .companies img.company.left {
+  float: left;
+  width: 35%;
+  height: auto;
+}
+header .intro-text .companies img.company.right {
+  float: right;
+  width: 40%;
+  height: auto;
+  margin-top: 100px;
 }
 @media (min-width: 768px) {
   header .intro-text {
@@ -551,6 +562,8 @@ section h3.section-subheading {
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
+  width: 225px;
+  height: 225px;
 }
 .team-member h4 {
   margin-top: 25px;
