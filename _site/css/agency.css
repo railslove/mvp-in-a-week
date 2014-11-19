@@ -1,3 +1,9 @@
+/*!
+ * Agency v0.0.1 (http://startbootstrap.com)
+ * Copyright 2014 Start Bootstrap
+ * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -181,6 +187,28 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   outline: none;
 }
+.navbar-default .nav li a.social {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-top: 0;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.navbar-default .nav li a.social:hover,
+.navbar-default .nav li a.social:focus,
+.navbar-default .nav li a.social:active {
+  background-color: #fed136;
+}
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
@@ -244,7 +272,7 @@ header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 50px;
   margin-bottom: 25px;
 }
@@ -283,9 +311,12 @@ header .intro-text .companies img.company.right {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 75px;
     margin-bottom: 50px;
+  }
+  header .intro-text .companies {
+    width: 40%;
   }
   header .intro-text .companies img.company.left {
     float: left;
@@ -575,7 +606,7 @@ section h3.section-subheading {
   margin: 0 auto;
   border: 7px solid white;
   width: 225px;
-  height: 225px;
+  height: auto;
 }
 .team-member h4 {
   margin-top: 25px;
@@ -590,7 +621,7 @@ aside.clients img {
 }
 section#contact {
   background-color: #222222;
-  background-image: url('../img/map-image.png');
+  background-image: url('../img/header-bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -769,4 +800,21 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+.price {
+  font-size: 4em;
+}
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+.panel {
+  -webkit-transition-property: scale;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
 }
