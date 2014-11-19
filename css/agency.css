@@ -181,6 +181,28 @@ fieldset[disabled] .btn-xl.active {
   color: #fed136;
   outline: none;
 }
+.navbar-default .nav li a.social {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  padding-top: 0;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.navbar-default .nav li a.social:hover,
+.navbar-default .nav li a.social:focus,
+.navbar-default .nav li a.social:active {
+  background-color: #fed136;
+}
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
